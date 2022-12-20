@@ -1,0 +1,11 @@
+{
+"SpecialNeedsYes": "#root > div > main > div > div.styles_leftColumn__mRJoG > div > form > div:nth-child(1) > div > div.styles_radioBtnsWrap__xGoNS > label:nth-child(1)",
+"SpecialNeedsNo": "#root > div > main > div > div.styles_leftColumn__mRJoG > div > form > div:nth-child(1) > div > div.styles_radioBtnsWrap__xGoNS > label:nth-child(2)",
+"DisabilityYes": "#root > div > main > div > div.styles_leftColumn__mRJoG > div > form > div:nth-child(2) > div > div.styles_radioBtnsWrap__xGoNS > label:nth-child(1)",
+"DisabilityNo": "#root > div > main > div > div.styles_leftColumn__mRJoG > div > form > div:nth-child(2) > div > div.styles_radioBtnsWrap__xGoNS > label:nth-child(2)",
+"TextField": "textarea[name=\"disabilityDescription\"]",
+"AdditionalStudSuoURL": "https://register-test.kingsinterhigh.co.uk/dashboard/0CPCvc-5CWGMfVZ4X7qr4H2mZnyWWM",
+"AdditionalStudentSupport": "#root > div > aside > nav > ul > li:nth-child(5) > a > span",
+"AdditionalSupportSave": "button[type=\"submit\"]",
+"CommunicationAndInteraction": "#root > div > main > div > div.styles_leftColumn__mRJoG > div > form > div:nth-child(1) > div.styles_expandedContent__oU3XM > div > label:nth-child(2) > button"
+}
