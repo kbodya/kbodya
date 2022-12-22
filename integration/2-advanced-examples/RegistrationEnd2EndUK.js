@@ -51,7 +51,7 @@ import {} from "./selectors/RegistrationProcessEnd2End.json"
 
 
 
-describe.skip ('User is able to register a three Students and successfully proceed to payment floy', () => {
+describe ('User is able to register a three Students and successfully proceed to payment floy', () => {
 
 it ('User is not able to proceed if required fields is not pre-filled', () => {
     cy.visit (URL)
@@ -269,7 +269,7 @@ it.skip ('User is able to Delete two Students, check info, and proceed to paymen
 })
 })
 
-describe ('User is able to register a three Students and successfully proceed to payment floy', () => {
+describe.skip ('User is able to register a three Students and successfully proceed to payment floy', () => {
         
     it ('User is able to fill up all fields on Step1 and proceed to next Step2', () => {
     
