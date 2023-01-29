@@ -194,8 +194,8 @@ export class NavigationPage {
     // cy.get (Next).click()
     cy.contains ('Delete student').click()
     cy.wait (1000)
-    cy.get ('footer > button:nth-child(2)').click() //Confirm to Delete Student and redirect to Confirmation page
-    }
+    cy.get ('footer > button:nth-child(2)').click() //Confirm to Delete Student and redirect to Confirmation page  
+}
 }
 
 export const NavigateTo = new NavigationPage()
