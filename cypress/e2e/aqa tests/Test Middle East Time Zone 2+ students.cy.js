@@ -296,3 +296,11 @@
 //     cy.get('#confirm-form > div.styles_footerWrap__VhU4S > div.styles_footerConfirm__dPxR3 > div.styles_footerDesktopBtn__90dyl > button')
 //     .click()
 // }
+
+describe ('This is test', () => {
+    it ('Test', () => {
+   cy.visit ('https://register-test.kingsinterhigh.co.uk/registration/0FybBg-3f2jSZWlVx2JjtmYcCDbrfs/confirmation')
+   cy.get ('div.styles_footerDesktopBtn__90dyl > label > button > svg').click()
+   cy.get ('div.styles_footerDesktopBtn__90dyl > .styles_btn__YKgti').click()
+      })
+  })
