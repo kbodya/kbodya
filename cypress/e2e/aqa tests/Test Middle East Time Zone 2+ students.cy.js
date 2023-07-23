@@ -299,7 +299,7 @@
 
 describe ('This is test', () => {
     it ('Test', () => {
-   cy.visit ('https://register-test.kingsinterhigh.co.uk/registration/0FybBg-3f2jSZWlVx2JjtmYcCDbrfs/confirmation')
+   cy.visit ('/')
    cy.get ('div.styles_footerDesktopBtn__90dyl > label > button > svg').click()
    cy.get ('div.styles_footerDesktopBtn__90dyl > .styles_btn__YKgti').click()
       })
